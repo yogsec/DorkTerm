@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vulnerability Finder With Dorks</title>
+    <title>DorkTerm</title>
     <!-- Font Awesome -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -95,16 +95,16 @@
     </nav>
 
     <div class="container mt-5">
-        <div class="card">
+        <div style="color:white;" class="card">
             <h1 class="text-center">DorkTerm</h1>
             <div class="mb-3">
-                <label for="domainInput" class="form-label">Enter a target/domain:</label>
+                <label  for="domainInput" class="form-label">Enter a target/domain:</label>
                 <input type="text" class="form-control search-input" id="domainInput" placeholder="e.g., example.com">
             </div>
             <div class="text-center">
                 <button class="run-btn" onclick="runGoogleDorks()">Run</button>
             </div>
-            <div class="info-box mt-4">
+            <div style="color:white;" class="info-box mt-4">
                 <h4>What does this tool do?</h4>
                 <p>
                     This tool runs a series of Google Dork queries against the provided domain to identify potential vulnerabilities or exposed sensitive information.
